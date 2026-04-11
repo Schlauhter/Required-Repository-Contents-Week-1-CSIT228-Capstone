@@ -38,7 +38,11 @@ Display how much should he/she spend every (Day, Week, Month)
 }
 
 **PLANNED TECHNOLOGIES**
+
 Java
+
 JavaFX
+
 XAMMP 
+
 MySQL
