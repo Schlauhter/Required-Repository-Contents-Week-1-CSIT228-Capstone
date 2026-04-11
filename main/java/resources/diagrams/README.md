@@ -1,6 +1,17 @@
 **BUDGET / EXPENSE TOOL TRACKER**
 
+
 **GROUP MEMBERS**
+
+Keith Allen Lariego
+
+Miguel Carlos Sibi
+
+Joshua Dave G. Abella
+
+Akshey Luke F. Gallardo
+
+Prince Kenn P. Sorita
 
 
 **PROJECT DESCRIPTION**
