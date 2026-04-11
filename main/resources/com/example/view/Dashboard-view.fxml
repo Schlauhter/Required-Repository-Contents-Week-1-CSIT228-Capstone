@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.csit228capstone.Controllers.BEDashboardController">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="500.0">
+         <children>
+            <Label layoutX="36.0" layoutY="102.0" text="BUDGET" />
+            <TextField fx:id="dbbudgettextfield" layoutX="119.0" layoutY="98.0" onAction="#dbbamount" prefHeight="25.0" prefWidth="107.0" />
+            <ComboBox fx:id="dashboardbudgetDWM" layoutX="271.0" layoutY="98.0" onAction="#dbbudgettype" prefHeight="25.0" prefWidth="107.0" />
+            <Button layoutX="425.0" layoutY="145.0" mnemonicParsing="false" text="Add" />
+            <TextField layoutX="119.0" layoutY="145.0" prefHeight="25.0" prefWidth="107.0" />
+            <ComboBox layoutX="271.0" layoutY="145.0" prefHeight="25.0" prefWidth="107.0" />
+            <Button layoutX="173.0" layoutY="186.0" mnemonicParsing="false" text="Delete" />
+            <Label layoutX="35.0" layoutY="149.0" text="EXPENSE" />
+            <Button layoutX="119.0" layoutY="186.0" mnemonicParsing="false" text="Edit" />
+            <Button layoutX="422.0" layoutY="98.0" mnemonicParsing="false" text="Enter" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="400.0" prefHeight="400.0" prefWidth="500.0">
+         <children>
+            <Label layoutX="303.0" layoutY="-9.0" text="Expense:" />
+            <Label layoutX="151.0" layoutY="-8.0" text="Budget: " />
+            <Button layoutX="224.0" layoutY="175.0" mnemonicParsing="false" text="Report" />
+         </children></AnchorPane>
+      <AnchorPane layoutX="500.0" layoutY="400.0" prefHeight="400.0" prefWidth="500.0">
+         <children>
+            <TableView prefHeight="400.0" prefWidth="500.0">
+              <columns>
+                <TableColumn prefWidth="75.0" text="C1" />
+                <TableColumn prefWidth="75.0" text="C2" />
+              </columns>
+            </TableView>
+         </children></AnchorPane>
+      <AnchorPane layoutX="500.0" prefHeight="400.0" prefWidth="500.0" />
+   </children>
+</AnchorPane>
