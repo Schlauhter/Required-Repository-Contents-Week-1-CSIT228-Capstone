@@ -1,6 +1,14 @@
-Expense Tracker / Budgeting Tool
+**BUDGET / EXPENSE TOOL TRACKER**
 
-Core Features
+**GROUP MEMBERS**
+
+
+**PROJECT DESCRIPTION**
+
+A Budget / Expense Tool Tracker is a system designed to help individuals monitor, manage, and control their personal finances.
+The main problem it solves is the lack of financial awareness and poor money management.
+
+**CORE FEATURES**
 
 User Login | Signup
 
@@ -18,3 +26,8 @@ Display how much should he/she spend every (Day, Week, Month)
 
 }
 
+**PLANNED TECHNOLOGIES**
+Java
+JavaFX
+XAMMP 
+MySQL
